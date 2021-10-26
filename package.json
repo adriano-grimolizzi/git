@@ -1,0 +1,26 @@
+{
+  "name": "git",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "pre-commit": [
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriano-grimolizzi/git.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adriano-grimolizzi/git/issues"
+  },
+  "homepage": "https://github.com/adriano-grimolizzi/git#readme",
+  "devDependencies": {
+    "jest": "^27.3.1",
+    "pre-commit": "^1.2.2"
+  }
+}
